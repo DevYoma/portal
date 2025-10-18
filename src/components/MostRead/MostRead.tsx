@@ -1,6 +1,5 @@
 import Card from "../ui/card/Card";
 import SectionHeader from "../ui/molecule/sectionHeader/SectionHeader";
-import "./MostRead.scss";
 import Picture from "../../assets/HeroImg.png"
 
 const cardPosts: {picture: string; text: string; date: string}[] = [
@@ -23,10 +22,10 @@ const cardPosts: {picture: string; text: string; date: string}[] = [
 
 const MostRead = () => {
     return (
-        <div className="mostRead">
+        <div className="mb-[60px]">
             <SectionHeader title="Most Read"/>
 
-            <div className="mostReadCards">
+            <div className="mt-[35px] flex flex-wrap justify-between gap-6">
                 {cardPosts.map((card) => (
                     <Card 
                         date={card.date}
