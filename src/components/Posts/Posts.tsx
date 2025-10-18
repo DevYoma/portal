@@ -1,5 +1,4 @@
 import Card from "../ui/card/Card";
-import "./Posts.scss";
 import Picture from "../../assets/HeroImg.png";
 import SectionHeader from "../ui/molecule/sectionHeader/SectionHeader";
 
@@ -39,10 +38,10 @@ const cardPosts: {picture: string; text: string; date: string}[] = [
 const Posts = () => {
    
     return(
-        <div className="posts">
+        <div className="mb-8">
             <SectionHeader title="New Posts"/>
 
-            <div className="postsCards">
+            <div className="mt-8 flex flex-wrap justify-between gap-6">
                 {cardPosts.map((card) => (
                     <Card 
                         date={card.date}

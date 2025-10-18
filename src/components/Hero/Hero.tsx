@@ -1,4 +1,3 @@
-// import "./Hero.scss";
 import HeroLogo from "../../assets/HeroImg.png";
 
 const Hero = () => {
