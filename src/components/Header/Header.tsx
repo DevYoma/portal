@@ -1,4 +1,3 @@
-import './Header.scss';
 import { FacebookIcon, LinkedinIcon } from 'lucide-react';
 import PortalLogo from "../../assets/portalLogo.png";
 import Button from '../ui/button/Button';
@@ -6,12 +5,6 @@ import Button from '../ui/button/Button';
 
 
 const Header = () => {
-    const iconStyles = {
-        padding: "5px", 
-        backgroundColor: "#5d91f7", 
-        color: "white", 
-        borderRadius: "99px"
-    }
     const buttonStyle = {
         padding: "10px 1rem", 
         borderRadius: "20px", 
