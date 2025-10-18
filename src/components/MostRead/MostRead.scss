@@ -1,0 +1,13 @@
+.mostRead{
+    // border: 3px solid orange;
+    margin-bottom: 60px;
+
+    &Cards{
+        margin-top: 35px;
+        display: flex;
+        gap: 1.5rem;
+        justify-content: space-between;
+        flex: 1 1 33%;
+        flex-wrap: wrap;
+    }
+}

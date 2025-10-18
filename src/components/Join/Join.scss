@@ -1,0 +1,80 @@
+.join{
+    // background: #5d91f7;
+    // margin-left: auto;
+    margin-bottom: 50px;
+    // border: 2px solid red;
+    position: relative;
+
+    img{
+        position: absolute;
+        width: 500px;
+        left: 75px;
+        top: 50px;
+
+        @media screen and (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    &Main{
+        margin-left: auto;
+        width: 75%;
+        background: #5d91f7;
+        // border: 1px solid red;
+
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+        }
+
+        &Form{
+            padding: 60px 0;
+            margin-left: auto;
+            // margin-right: 0px;
+            width: 50%;
+            // border: 2px solid green;
+
+            @media screen and (max-width: 1024px) {
+                width: 90%;
+                margin: 0 auto;
+                padding: 40px 0;
+            }
+
+            h1{
+                font-size: 2.5rem;
+                color: white;
+                line-height: normal;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 2rem;
+                }
+
+                @media screen and (max-width: 500px) {
+                    font-size: 1.5rem;
+                }
+            }
+            p{
+                color: white;
+                margin: 1rem 0;
+                width: 80%;
+
+                @media screen and (max-width: 1024px) {
+                    width: 100%;
+                }
+            }
+
+            &Input{
+                margin: 20px 0;
+                input{
+                    width: 80%;
+                    border-radius: 99px;
+                    padding: 10px;
+
+                    @media screen and (max-width: 1024px) {
+                        width: 100%;
+                    }
+                }                
+            }
+        }
+    } 
+
+}

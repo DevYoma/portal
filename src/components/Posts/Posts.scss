@@ -1,0 +1,14 @@
+.posts{
+    // border: 1px solid red;
+    margin-bottom: 30px;
+    
+    &Cards{
+        margin-top: 35px;
+        display: flex;
+        gap: 1.5rem;
+        justify-content: space-between;
+        flex: 1 1 33%;
+        flex-wrap: wrap;
+    }
+
+}
