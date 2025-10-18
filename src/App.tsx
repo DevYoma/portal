@@ -1,4 +1,3 @@
-import './App.scss'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -10,12 +9,12 @@ import Posts from './components/Posts/Posts'
 function App() {
   // optional padding in each component
   return (
-    <div className='app'>
-      <div className="appPad">
+    <div className='overflow-x-hidden font-poppins bg-[#f5f5f5]'>
+      <div className="px-[10%]">
         <Header />
       </div>
       <Navbar />
-      <div className="appPad">
+      <div className="px-[10%]">
       <Hero />
       <Posts />
       {/* Join our Community */}
